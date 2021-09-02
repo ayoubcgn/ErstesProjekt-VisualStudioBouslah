@@ -21,7 +21,7 @@ namespace Tutorial
             
             int value;
 
-            value = 23;
+            value = 1234;
 
             Double Value2 = 1000.11;
             Console.WriteLine(value+Value2);
@@ -29,6 +29,18 @@ namespace Tutorial
             Console.WriteLine
                 ("wert von ´a´ = {0} \nWert von ´b´ = {1} +{2}" ,a,b,value );
 
+            Console.WriteLine("Ich kaufe {0,10} Eier",a) ;
+
+            
+            Console.WriteLine("Ich kaufe {0,-10} Eier", a);
+            
+            
+            Console.WriteLine("value= {0:E}", value);
+            Console.WriteLine("value={0:E2}, value");
+            float value3 = 0.2512F;
+            Console.WriteLine("value3={O,10:G}",value3);
+            Console.WriteLine("value3={0:P4}", value3);
+            Console.WriteLine("")
 
 
 
