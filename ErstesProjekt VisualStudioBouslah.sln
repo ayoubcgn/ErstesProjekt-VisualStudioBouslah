@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutorial", "Tutorial\Tutori
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Calculator.csproj", "{3959D3D5-E292-4CB0-A859-6D9F3B39374D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nachhilfe", "Nachhilfe\Nachhilfe.csproj", "{DBCC1474-FEDF-41C3-AFA6-79732FCF00AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nachhilfe", "Nachhilfe\Nachhilfe.csproj", "{DBCC1474-FEDF-41C3-AFA6-79732FCF00AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TutorialBibliothek", "TutorialBibliothek\TutorialBibliothek.csproj", "{E295DC43-D90B-4A23-AE64-1D6381E7C0FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{DBCC1474-FEDF-41C3-AFA6-79732FCF00AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBCC1474-FEDF-41C3-AFA6-79732FCF00AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBCC1474-FEDF-41C3-AFA6-79732FCF00AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E295DC43-D90B-4A23-AE64-1D6381E7C0FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E295DC43-D90B-4A23-AE64-1D6381E7C0FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E295DC43-D90B-4A23-AE64-1D6381E7C0FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E295DC43-D90B-4A23-AE64-1D6381E7C0FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

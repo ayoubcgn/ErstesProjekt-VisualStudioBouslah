@@ -1,18 +1,10 @@
 ﻿using System;
 
-// So schreibst du einen Kommentar
-/* Alle Zeichen die in dieser Kommtar-Variante stehen werden als Kommentar Interpretiert */
-
-namespace Tutorial
+namespace TutorialBibliothek
 {
-    class Tutorial1
+    public class KommetiertterCode
     {
-        /* Mit 'static' werden Methoden bezeichnet die beim Aufruf kein spezifisches Objekt voraussetzen, 
-        und 'void' beschreibt eine Methode ohne Rückgabewert. 
-        'Main' ist eine Methode von herrausragender Bedeutung. Wenn Laufzeitumgebung der EXE-Datei startet, wird zuerst 'Main' ausgeführt*/
-
-
-        static void Main()
+        public static void Tutorial()
         {
             //----------------------------------------------Elementare Syntax-------------------------------------------------------------------------------------
 
@@ -120,16 +112,15 @@ namespace Tutorial
 
             int input2 = Console.Read();                               //
             Console.WriteLine(input2);                                 //
-            Console.ReadLine();                                        //
+            Console.ReadLine();
 
         }
+       public static void TutuoriaL2()
+        {
+            Console.WriteLine("Tutorial wird gestartet");
+
+
+        }
+
     }
-
-
-
-
-
-
 }
-    
-
